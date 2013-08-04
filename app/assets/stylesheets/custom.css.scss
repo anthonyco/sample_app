@@ -2,26 +2,10 @@
 /* mixins, variables, etc. */
 $grayMediumLight: #eaeaea;
 /* universal */
+
 html {
 	overflow-y: scroll;
 }
-
-.navbar-inner {
-  background-color: #000; /* background color will be black for all browsers */
-  background-image: none;
-  background-repeat: no-repeat;
-  filter: none;
-}
-
-.navbar .nav > li > a {
-    float: none;
-    line-height: 19px;
-    padding: 9px 10px 11px;
-    text-decoration: none;
-    text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
-    color:  #ddd;
-}
-
 body {
 	padding-top: 60px;
 }
@@ -59,8 +43,6 @@ p {
 	font-size: 1.1em;
 	line-height: 1.7em;
 }
-
-
 /* header */
 #logo {
 	float: left;
